@@ -1,0 +1,184 @@
+.cake-list {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  gap: 20px;
+  justify-content: center;
+}
+.cake-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.cake-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 2px solid #a92680;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: 300px;
+}
+.cake-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cake-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  max-height: 290px;
+}
+
+.cake-content {
+  margin-top: 10px;
+}
+
+.cake-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #a92680;
+}
+
+.cake-content p {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.cake-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #ff1a1a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f7e7f3;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
+
+nav {
+  background: linear-gradient(90deg, #b34ba4, #ecacd9);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #aa1e72;
+}
+
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.create-cake-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #b83787;
+  border: 1px solid #c64bad;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-cake-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #d259c4;
+  border-radius: 4px;
+}
+
+.input-group textarea {
+  resize: vertical;
+}
+
+.input-group button {
+  background-color: #a80f63;
+  color: #c056a7;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+.input-group button:hover {
+  background-color: #d01394;
+}
+
+.khawla {
+  color: #aa1e72;
+  text-align: center;
+}
+
+.hi {
+  color: #6a255c;
+  text-align: center;
+}

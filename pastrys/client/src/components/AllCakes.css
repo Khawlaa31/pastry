@@ -1,0 +1,62 @@
+/* General styling for the cake list */
+.cake-list {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.cake-list h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Container for cake cards */
+.cake-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Styling for each cake card */
+.cake-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+}
+
+.cake-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.cake-content {
+  padding: 15px;
+}
+
+.cake-content h2 {
+  font-size: 1.5em;
+  margin: 0;
+  color: #333;
+}
+
+.cake-content p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.cake-buttons {
+  margin-top: 10px;
+}
+
+/* Styling for loading and error messages */
+.loading,
+.error {
+  text-align: center;
+  font-size: 1.2em;
+  color: #333;
+}
